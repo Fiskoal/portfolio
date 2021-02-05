@@ -5,7 +5,6 @@ header {
   justify-content: center;
   width: 100%;
   z-index: 2;
-  overflow: auto;
 }
 
 nav {
@@ -48,4 +47,34 @@ nav a {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid slategray;
+}
+
+@media only screen and (max-width: 720px) {
+  .navbar {
+    display:none;
+  }
+  .return {
+    transform: scale(2.0, 1.5);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    transition: 0.5s ease;
+    transform: scale(0);
+  }
+  .return {
+    transition: 0.5s ease;
+    transform: scale(2.0, 1.5);
+  }
+}
+@media only screen and (min-width: 801px) {
+  .navbar {
+    transition: 0.5s ease;
+    transform: scale(1);
+  }
+  .return {
+    transition: 0.5s ease;
+    transform: scale(1.0, 1.0);
+  }
 }
