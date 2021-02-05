@@ -1,9 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   font-family: "Noto Sans";
   color: black;
   background-color:white;
-  height: 2000px;
 }
 
 .row {
@@ -21,6 +24,10 @@ body {
 h1 {
   font-family: "Noto Sans Bold";
   font-size: 64px;
+}
+
+#winston {
+  height: 1em;
 }
 
 @font-face {

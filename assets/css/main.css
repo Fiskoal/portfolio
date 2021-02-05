@@ -1,5 +1,8 @@
 main {
-  padding-top: 80px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+  box-shadow: 10px 0px 5px lightgray, -10px 0px 5px lightgray;
 }
 
 main h1 {
@@ -17,22 +20,20 @@ main h2 {
 }
 
 #bar {
-  height: 100px;
+  height: 200px;
   width: 2px;
   background-color: black;
 }
 
 .container {
-  position: relative;
   align-items: center;
   justify-content: center;
-  pointer-events: none;
 }
 
 #introduction img {
   border-radius: 100%;
   margin: 20px;
-  border: 10px lightgray;
+  max-height: 300px;
 }
 
 ul {
@@ -99,3 +100,36 @@ article:hover div {
   height: 500px;
 }
 
+/* CONTACT-ME */
+
+#contact-me {
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-me div {
+  margin-bottom: 50px;
+}
+
+#contact-me img {
+  max-height: 50px;
+}
+
+#contact-me a {
+  margin: 0 25px;
+}
+
+footer {
+  justify-content: center;
+  color: lightgray;
+}
+
+footer .container{
+  width: 500px;
+}
+
+footer hr {
+  border-style: none;
+  height: 1px;
+  background-color: lightgray;
+}
