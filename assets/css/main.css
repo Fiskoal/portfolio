@@ -1,5 +1,6 @@
 main {
   width: 1000px;
+  max-width: 100vw;
   margin: auto;
   padding-top: 30px;
   box-shadow: 10px 0px 5px lightgray, -10px 0px 5px lightgray;
@@ -12,6 +13,7 @@ main h1 {
 main h2 {
   text-align: left;
   width: 400px;
+  max-width: 100vw;
 }
 
 #introduction {
@@ -40,6 +42,8 @@ ul {
   margin: 0 auto;
   width: 800px;
   text-decoration: none;
+  max-width: 85vw;
+  padding: 0;
 }
 
 li {
@@ -53,6 +57,8 @@ li a {
   height: 100%;
   width: 100%;
   text-decoration: none;
+  max-width: 85vw;
+  max-height: 53.125vw;
 }
 
 li h3 {
@@ -71,10 +77,13 @@ li h3 {
 li img {
   position: absolute;
   border-radius: 5px;
+  max-width: 85vw;
 }
 
 article {
   position: relative;
+  max-width: 85vw;
+  max-height: 53.125vw;
 }
 
 article div {
@@ -86,6 +95,8 @@ article div {
   transition: 0.5s ease;
   z-index: 1;
   border-radius: 5px;
+  max-width: 85vw;
+  max-height: 53.125vw;
 }
 
 article:hover div {
@@ -121,11 +132,13 @@ article:hover div {
 
 footer {
   justify-content: center;
+  align-items: center;
   color: lightgray;
 }
 
 footer .container{
   width: 500px;
+  max-width: 50vw;
 }
 
 footer hr {

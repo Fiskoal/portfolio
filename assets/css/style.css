@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
+  max-width: 100vw;
 }
 
 body {
   margin: 0 auto;
+  max-width: 100vw;
   font-family: "Noto Sans";
   color: black;
   background-color:white;
@@ -44,4 +46,22 @@ h1 {
   font-style: normal;
 }
 
+@media only screen and (max-width: 720px) {
+  .row {
+    flex-direction: column;
+  }
+  #bar {
+    display: none;
+  }
+  #introduction h2 {
+    max-width: 90vw;
+    text-align: center;
+  }
+  footer a {
+    flex-direction: row;
+  }
 
+  #contact-me .row {
+    flex-direction: row;
+  }
+}
