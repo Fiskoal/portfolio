@@ -27,8 +27,8 @@ I had issues with the #return pointer events over certain elements/divs for some
 
 # LINKS
 
-github-pages: https://fiskoal.github.io/portfolio/
+<a href="https://fiskoal.github.io/portfolio/" target="blank">github-pages</a>
 
-Screenshot image: https://fiskoal.github.io/portfolio/assets/images/portfolio.png
-
-bonus image: https://fiskoal.github.io/portfolio/assets/images/winston.png
+<a href="https://fiskoal.github.io/portfolio/assets/images/portfolio.png" target="blank>Screenshot</a>
+                                                                                  
+<a href="https://fiskoal.github.io/portfolio/assets/images/winston.png" target="blank>Bonus Image</a>
