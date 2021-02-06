@@ -24,3 +24,9 @@ Use following width/height to fit the 800x500 image structure of Work (for now..
 ## NOTED: HEISENBUG ??DISCOVERED??
 
 I had issues with the #return pointer events over certain elements/divs for some reason (notably, the entire introduction div under the h1), and when trying to provoke it within the code, it fixed itself somehow. It has yet to reappear...
+
+# LINKS
+
+github-pages: https://fiskoal.github.io/portfolio/
+Screenshot image: https://fiskoal.github.io/portfolio/assets/images/portfolio.png
+bonus image: https://fiskoal.github.io/portfolio/assets/images/winston.png
