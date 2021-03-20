@@ -1,0 +1,81 @@
+/* variable declarations */
+:root {
+  --white: white;
+  --black: black;
+  --gray: gray;
+  --lightgray: lightgray;
+}
+
+/* body/main style */
+body {
+  font-family: "Exo 2", Arial, Helvetica, sans-serif, monospace;
+}
+
+main {
+  box-shadow: 10px 0px 5px var(--lightgray), -10px 0px 5px var(--lightgray);
+}
+
+/* navbar */
+navbar {
+  opacity: 50%;
+}
+
+.triangle-container {
+  background-color: var(--lightgray);
+  border-radius: 5px;
+  width: 100px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  margin-bottom: 5px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid var(--gray);
+}
+
+.triangle-container:hover .triangle {
+  border-bottom: 15px solid var(--black);
+}
+
+.nav-links-container {
+  background-color: var(--lightgray);
+  border-radius: 5px;
+}
+
+.nav-links-container a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav-links-container a:hover {
+  color: var(--gray);
+}
+
+/* main */
+
+section {
+  margin-bottom: 10px;
+}
+
+#profile-image {
+  border-radius: 100%;
+}
+
+.vertical-bar {
+  background-color: var(--gray);
+  height: 80%;
+  width: 1%;
+  border-radius: 100px;
+}
+
+/* .work-image-container {
+  height: 30vh;
+  width: 50vw;
+} */
+
+.work-image {
+  height: 30vh;
+  width: 50vw;
+}

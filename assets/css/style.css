@@ -23,6 +23,11 @@ body {
   flex-wrap: wrap;
 }
 
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   font-family: "Noto Sans Bold";
   font-size: 64px;
@@ -46,12 +51,19 @@ h1 {
   font-style: normal;
 }
 
+
+@media only screen and (max-width: 800px) {
+  #bar {
+    display: none;
+  }
+  main {
+    box-shadow: none;
+  }
+}
+
 @media only screen and (max-width: 720px) {
   .row {
     flex-direction: column;
-  }
-  #bar {
-    display: none;
   }
   #introduction h2 {
     max-width: 90vw;
@@ -60,7 +72,6 @@ h1 {
   footer a {
     flex-direction: row;
   }
-
   #contact-me .row {
     flex-direction: row;
   }
