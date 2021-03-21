@@ -19,6 +19,7 @@ main h2 {
 
 main h3 {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 /*Intro (welcome)*/
@@ -110,7 +111,7 @@ article div {
   max-height: 53.125vw;
 }
 
-article:hover div {
+article:hover div{
   opacity: 0;
 }
 
