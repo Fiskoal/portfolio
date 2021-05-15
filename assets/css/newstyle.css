@@ -6,13 +6,13 @@
   --lightgray: lightgray;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* body/main style */
 body {
   font-family: "Exo 2", Arial, Helvetica, sans-serif, monospace;
-}
-
-main {
-  box-shadow: 10px 0px 5px var(--lightgray), -10px 0px 5px var(--lightgray);
 }
 
 /* navbar */
@@ -61,21 +61,4 @@ section {
 
 #profile-image {
   border-radius: 100%;
-}
-
-.vertical-bar {
-  background-color: var(--gray);
-  height: 80%;
-  width: 1%;
-  border-radius: 100px;
-}
-
-/* .work-image-container {
-  height: 30vh;
-  width: 50vw;
-} */
-
-.work-image {
-  height: 30vh;
-  width: 50vw;
 }
